@@ -4,7 +4,7 @@
 
 ## 构建镜像
 
-`docker build -t fifilyu/sjx:0.0.1 .`
+`docker build -t zcxx0322/sjx:0.0.1 .`
 
 ## 创建容器
 
@@ -14,5 +14,5 @@ docker run -d --privileged \
     -p 2080:8080 \
     --env LANG=en_US.UTF-8 \
     --env TZ=Asia/Shanghai \
-    --name sjx geekcamp/sjx:v1
+    --name sjx zcxx0322/sjx:0.0.1
 ```

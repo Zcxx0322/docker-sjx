@@ -2,11 +2,11 @@ name: Publish Docker Image to Docker Hub
 
 on:
   push:
-    branches: ['master']
+    branches: [ master ]
 
 jobs:
   build:
-    runs-on: centos-latest
+    runs-on: centos-stream9-latest
 
     steps:
       - uses: actions/checkout@v3

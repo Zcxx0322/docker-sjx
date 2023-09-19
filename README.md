@@ -16,5 +16,3 @@ docker run -d --privileged \
     --env TZ=Asia/Shanghai \
     --name sjx zcxx0322/sjx:0.0.1
 ```
-
-### test
